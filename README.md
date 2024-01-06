@@ -32,7 +32,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    go get -u github.com/gorilla/mux
 
-4. Paste your paerticular api key : key := "your key"
+4. Paste your particular openweather api key, key := "your key"
 5. **Run**:
 
    ```bash
@@ -40,14 +40,16 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-1.  **Start Web Server**:
+1. **Start Server**:
 
    ```bash
-   [cd your-repo](http://localhost:4000)
+   http://localhost:4000
 
- 2. **Access the weather data by making a request to the following endpoint**:
+2. **Access the weather data by making a request to the following endpoint**:
 
    ```bash
-  [ cd your-repo](http://localhost:4000/city)
+   http://localhost:4000/city
 
-3. This will print fetched data onto your local server.
+3. **This will show fetched data on your local server**
+
+
